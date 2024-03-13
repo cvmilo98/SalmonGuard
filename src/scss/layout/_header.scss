@@ -1,0 +1,52 @@
+.header {
+    background-color:  hsl(220, 100%, 50%);
+    padding: 1rem 0 -2rem 0;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 30px 30px rgba(0,0,0,0.20);
+    
+}
+
+
+.contenido-header {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+    @include tablet {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            }
+
+    h1 {
+        color: $blanco;
+        text-align: left;
+        font-weight: $bold;
+        line-height: .5;
+
+    }
+
+}
+
+a {
+    font-weight: $bold;
+    }
+
+
+
+.Titulo1 {
+    background-color: $naranjo;
+    font-weight: $bold;
+    color: $blanco;
+    border-radius: 1rem;
+    border-width: 2px;
+}
+
+.Titulo2 {
+    background-color: $naranjo;
+    font-weight: $bold;
+    color: $blanco;
+    border-radius: 1rem;
+}
+
+

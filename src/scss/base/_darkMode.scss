@@ -1,0 +1,43 @@
+.dark-mode {
+    background-color: darken($grisOscuro, 10);
+
+    p {
+        color: $blanco;
+    }
+
+    a, label,h1,h2,h3,h4 {
+        color: $gris;
+    }
+
+    .seccion.contenedor {
+        .anuncio{
+            background-color: $grisOscuro;
+        }
+    }
+
+    .acciones {
+        a {
+            color: $blanco;
+        }
+    }
+
+    table {
+        .TD1{
+            color: $blanco;
+        }
+    }
+
+    .formulario {
+        legend{
+            color: $blanco;
+        }
+    }
+
+    .header {
+        background-color: $grisOscuro;
+    }
+
+    .footer{
+        background-color: $grisOscuro;
+    }
+}

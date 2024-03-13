@@ -1,0 +1,23 @@
+{
+    "name": "basti/portaf",
+    "description": "Proyecto con POO",
+    "type": "project",
+    "authors": [
+        {
+            "name": "bzty21",
+            "email": "bastian.farfan.benavides@gmail.com"
+        }
+    ],
+    "require": {
+        "google/apiclient": "2.15.0",
+        "phpmailer/phpmailer": "^6.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Model\\" : "./models",
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Classes\\" : "./classes"
+        }
+    }
+}
